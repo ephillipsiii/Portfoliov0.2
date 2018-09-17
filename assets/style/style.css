@@ -67,3 +67,7 @@ a:visited {
 card {
     border: 0;
 }
+
+h2 {
+    text-align: center;
+}
