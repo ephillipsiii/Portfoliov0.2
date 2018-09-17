@@ -1,15 +1,43 @@
-.picContainer {
-    width: auto;
+.paral {
     
-}
-
-
-.mountainPic {
-    background-image: url(assets/img/.mountainPic.jpg) no-repeat;
-    background-size: cover;
+    min-height: 500px;
     background-attachment: fixed;
+    background-size: cover;
+
 }
 
-mainFooterBackground {
+.paralsec {
+    background-image: url("../img/mtnpic1.jpg");
+}
+
+.paralsec1 {
+    background-image: url("../img/denverpic2.jpg");
+}
+
+.paralsec2 {
+    background-image: url("../img/maroonbells1.jpg");
+}
+/* Paragraph for Parallax Section */ 
+.paral p {
+    font-size: 24px;
+    color:white;
+    text-align: center;
+    line-height: 60px;
+    text-emphasis: bold;
+    }
+
+    .paral h1 {
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        padding-top: 60px;
+        line-height: 100px;
+        }
+
+.mainFooterBackground {
     background-color: blue;
+}
+
+.secondFooterBackground {
+    background-color: darkblue;
 }
