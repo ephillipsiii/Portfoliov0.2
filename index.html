@@ -15,7 +15,7 @@
 
 <body>
     <!-- <h1>The Professional Coding Portfolio of the One and Only Edford Phillips</h1> -->
-    <nav class="navbar navbar-expand-lg sticky-top" id="theNav">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary" id="theNav">
         <div class="container">
             <a class="navbar-brand" href="#">Edford Phillips</a>
             <ul class="navbar-nav ml-auto">
@@ -31,10 +31,13 @@
             </ul>
         </div>
     </nav>
-
-    <div class="container">
-        <h1>
-            Picture of something (denver skyline? mountain range?) that will scroll</h1>
+    <div class="picContainer">
+            <div class="mountianPic">
+                <img src="assets/img/mtnpic1.jpg">
+                </div>
+    </div>
+    
+    <div class="container">        
         <h2>
             Bio (to be linked with navbar and spyscroll)
         </h2>
@@ -42,6 +45,11 @@
             A brief blurb about myself and my journey.
         </p>
         <hr>
+    <div class="container-fluid">
+        <div class="denverPic">
+            <img src="assets/img/denverpic2.jpg">
+        </div>
+    </div>
         <h2>
             Projects (to be linked with navbar and spyscroll)
         </h2>
@@ -193,7 +201,7 @@
 
 
     <footer class="page-footer font-small pt-4" id="theFooter">
-        <div class="container text-center text-md-left" id="mainFooter">
+        <div class="container-fluid text-center text-md-left mainFooterBackground" style="background-color: blue" id="mainFooter">
             <div class="row">
                 <div class="col-md-4 col-lg-4 text-center mr-auto my-md-4 my-0 mt-4 mb-1">
                     <h5 class="font-weight-bold text-uppercase mb-4">Edford Phillips</h5>
@@ -240,7 +248,7 @@
                     </a>
                 </div>
             </div>
-            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <div class="container-fluid footer-copyright text-center py-3" style="background-color: darkblue">© 2018 Copyright:
                 <a href="#"> Edford Phillips</a>
             </div>
     </footer>

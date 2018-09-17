@@ -1,5 +1,15 @@
-#theNav .navbar-expand-lg {
-    background-color: orange;
+.picContainer {
+    width: auto;
     
 }
 
+
+.mountainPic {
+    background-image: url(assets/img/.mountainPic.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+mainFooterBackground {
+    background-color: blue;
+}
