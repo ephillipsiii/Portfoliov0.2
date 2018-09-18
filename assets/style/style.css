@@ -1,6 +1,6 @@
 .paral {
     
-    min-height: 500px;
+    min-height: 400px;
     background-attachment: fixed;
     background-size: cover;
 
@@ -26,13 +26,13 @@
     text-emphasis: bold;
     }
 
-    .paral h1 {
-        color: white;
-        font-size: 60px;
-        text-align: center;
-        padding-top: 60px;
-        line-height: 100px;
-        }
+.paral h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 110px;
+    line-height: 100px;
+   }
 
 .mainFooterBackground {
     background-color: blue;
@@ -41,3 +41,34 @@
 .secondFooterBackground {
     background-color: darkblue;
 }
+
+.page-footer {
+    color: silver;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+
+
+a:active {
+    color: silver;
+}
+
+a:visited {
+    color: orange;
+}
+card {
+    border: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
