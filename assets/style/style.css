@@ -19,7 +19,7 @@
 }
 /* Paragraph for Parallax Section */ 
 .paral p {
-    font-size: 24px;
+    font-size: 35px;
     color:white;
     text-align: center;
     line-height: 60px;
@@ -28,10 +28,11 @@
 
 .paral h1 {
     color: white;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     padding-top: 110px;
     line-height: 100px;
+    text-emphasis: bold;
    }
 
 .mainFooterBackground {
@@ -43,7 +44,7 @@
 }
 
 .page-footer {
-    color: silver;
+    color: white;
 }
 
 a:link {
@@ -68,7 +69,73 @@ card {
     border: 0;
 }
 
-h2 {
+h1 {
     text-align: center;
 }
 
+#projects p {
+    text-align: center;
+    font-size: 18pt;
+}
+
+#contact p {
+    font-size: 18pt;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+
+#bio p {
+    font-size: 18pt;
+}
+
+.portrait {
+    display: block;
+    width: 25%;
+    height: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 1px;
+    border:1px solid #021a40;
+}
+
+.fa-linkedin {
+    font-size: 48px;
+    color: dodgerblue;
+    padding: 3%;
+    /* text-shadow: 1px 1px 5px #272634; */
+}
+
+.fa-github-square {
+    font-size: 48px;
+    color: Black;
+    padding: 3%;
+    /* text-shadow: 1px 1px 5px #272634; */
+}
+
+.fa-stack-overflow {
+    font-size: 48px;
+    color: orange;
+    padding: 3%;
+    /* text-shadow: 1px 1px 5px #272634; */
+}
+
+.contactInfo {
+    text-align: center;
+}
+
+body{
+    background-image: url("../img/crossword.png");
+}
+
+#contact p {
+    text-align: center;
+}
+
+.card {
+    border: 0;
+    
+}
