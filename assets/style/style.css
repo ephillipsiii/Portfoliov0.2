@@ -19,7 +19,7 @@
 }
 /* Paragraph for Parallax Section */ 
 .paral p {
-    font-size: 24px;
+    font-size: 35px;
     color:white;
     text-align: center;
     line-height: 60px;
@@ -28,10 +28,11 @@
 
 .paral h1 {
     color: white;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     padding-top: 110px;
     line-height: 100px;
+    text-emphasis: bold;
    }
 
 .mainFooterBackground {
@@ -43,7 +44,7 @@
 }
 
 .page-footer {
-    color: silver;
+    color: white;
 }
 
 a:link {
@@ -68,12 +69,26 @@ card {
     border: 0;
 }
 
-h2 {
+h1 {
     text-align: center;
 }
 
 #projects p {
     text-align: center;
+    font-size: 18pt;
+}
+
+#contact p {
+    font-size: 18pt;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+
+#bio p {
+    font-size: 18pt;
 }
 
 .portrait {
